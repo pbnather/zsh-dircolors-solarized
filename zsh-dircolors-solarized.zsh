@@ -19,7 +19,7 @@ function setupsolarized ()
 
     local _SOLARIZED_THEME_PATH="$_ZSH_DIRCOLORS_SOLARIZED_DIR/${_SOLARIZED_THEME}"
     if [[ -f $_SOLARIZED_THEME_PATH ]]; then
-        eval $(dircolors $_SOLARIZED_THEME_PATH)
+        eval $(gdircolors $_SOLARIZED_THEME_PATH)
     else
         echo "Could not load theme $_SOLARIZED_THEME_PATH"
     fi
